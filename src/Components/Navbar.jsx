@@ -46,11 +46,11 @@ function Navbar() {
                           >
                             {
                                 Pages.map((page,index)=>(
-                                    <Tab key={index} label={page}></Tab>
+                                    <Tab sx={{textTransform:'capitalize'}} key={index} label={page}></Tab>
                                 ))
                             }
                           </Tabs>
-                          <Button sx={{marginLeft:'auto',color:'white',backgroundColor:'#F44335'}}>
+                          <Button sx={{marginLeft:'auto',color:'white',backgroundColor:'#F44335',textTransform:'capitalize'}}>
                             Register Interest
                           </Button>
                         </>
