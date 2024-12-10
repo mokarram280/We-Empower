@@ -11,7 +11,7 @@ function Navbar() {
     const PAGE = ['Home','About us','Upskill','Cotact us','Register Interest'];
   return (
     <>
-        <AppBar position='static' elevation={0} sx={{backgroundColor:'white',maxWidth:'1280px',mx:'auto'}}>
+        <AppBar position='static' elevation={0} sx={{backgroundColor:'white',width:'full'}}>
             <Toolbar sx={{color:'black'}}>
                 <Typography>
                     <img className='w-32' src="/c4u full logo_2022 1.svg" alt="" />
@@ -46,7 +46,9 @@ function Navbar() {
                           >
                             {
                                 Pages.map((page,index)=>(
-                                    <Tab sx={{textTransform:'capitalize'}} key={index} label={page}></Tab>
+                                    <Tab sx={{textTransform:'capitalize'}} key={index} label={page}>
+                                       
+                                    </Tab>
                                 ))
                             }
                           </Tabs>
