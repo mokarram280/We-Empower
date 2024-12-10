@@ -4,7 +4,7 @@ import { GoArrowRight } from "react-icons/go";
 
 function About() {
   return (
-    <section className='py-8 md:py-16 px-10 md:px-20 relative'>
+    <section className='py-8 md:py-16 px-10 md:px-20 mb-0 md:mb-16 relative'>
         <div className='flex flex-col md:flex-row items-center justify-between'>
             <div>
             <div className='space-y-2'>
