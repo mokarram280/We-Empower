@@ -5,8 +5,8 @@ const listC = ['It Support','Project Managment','Data Analysts','Ux Design'];
 const listD = ['Your message','Email','Phone number','Linkedin'];
 
 const linkList = (title,list) => (
-   <div className='space-y-4 min-w-fit'>
-       <h5 className='font-bold'>{title}</h5>
+   <div className='space-y-4 w-full'>
+       <h5 className='font-bold mt-10 md:mt-12 xl:mt-0'>{title}</h5>
        <ul className='space-y-2'>
           {list.map((item,i)=>(
               <li key={i} className='text-gray-500 text-sm'>{item}</li>
@@ -17,9 +17,9 @@ const linkList = (title,list) => (
 
 function Footer() {
   return (
-   <footer className='mt-16 px-20'>
+   <footer className='mt-6 md:mt-16 px-10 md:px-20'>
       <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 items-center'>
-        <div className='sm:col-span-2 space-y-4 ms-12'>
+        <div className='col-span-2 space-y-4 xl:ms-12 w-full'>
           <img src="/c4u full logo_2022 1.svg" alt="" className='w-28' />
           <p className='text-[#20484F] font-[300] max-w-32'>Level39 One Canada Square,Canary Wharf,London,E14 5AB</p>
         </div>

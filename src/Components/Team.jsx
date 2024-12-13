@@ -3,7 +3,7 @@ import React from 'react';
 function Team() {
     const card = [
         {
-            img:'/public/image 3.svg',
+            img:'/image 3.svg',
             names:'Ekta Mahajan',
             position:'Founder & C.E.O',
             icon1:'/Path.svg',
@@ -11,7 +11,7 @@ function Team() {
             icon3:'/Group 26609.svg'
         },
         {
-            img:'/public/image 4.svg',
+            img:'/image 4.svg',
             names:'Toby Potter-Drake',
             position:'Product Manager Associate',
             icon1:'/Path.svg',
@@ -19,7 +19,7 @@ function Team() {
             icon3:'/Group 26609.svg'
         },
         {
-            img:'/public/image 2.svg',
+            img:'/image 2.svg',
             names:'Ross Davies',
             position:'Corporate Growth Associate',
             icon1:'/Path.svg',
@@ -27,7 +27,7 @@ function Team() {
             icon3:'/Group 26609.svg'
         },
         {
-            img:'/public/image 1.svg',
+            img:'/image 1.svg',
             names:'Leo crozier ',
             position:'Software Developer',
             icon1:'/Path.svg',
