@@ -46,7 +46,7 @@ function Team() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20'>
             {
                 card.map((item,i)=>(
-                    <div key={i} className='bg-white flex flex-col items-center justify-center py-10 px-2 rounded-xl space-y-6'>
+                    <div key={i} className='bg-white hover:bg-[#00FF84]/25 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center py-10 px-2 rounded-xl space-y-6 cursor-pointer'>
                         <img className='w-32' src={item.img} alt="" />
                         <h3 className='text-lg md:text-2xl lg:text-3xl font-bold'>{item.names}</h3>
                         <h4 className='text-md md:text-lg text-gray-400'>{item.position}</h4>
